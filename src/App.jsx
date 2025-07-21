@@ -9,7 +9,7 @@ import College from "./Pages/College.jsx";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Route, Routes } from "react-router-dom";
-import Dashboard from "./components/Dashboard.jsx";
+
 const App = () => {
   return (
     <div>
@@ -21,7 +21,7 @@ const App = () => {
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Contribute" element={<Contribute />} />
         <Route path="/College" element={<College />} />
-        <Route path="/dashboard" element={<Dashboard />} />
+
       </Routes>
       <ToastContainer />
       <Footer />
