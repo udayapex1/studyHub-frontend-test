@@ -87,7 +87,7 @@ const Navbar = () => {
                     <p className="text-sm font-semibold text-gray-900">
                       {user.firstName} {user.lastName}
                     </p>
-                    <p className="text-sm text-gray-600">s{user.email}</p>
+                    <p className="text-sm text-gray-600">{user.email}</p>
                     <p className="text-sm text-gray-500">
                       Branch: {user.branchName}
                     </p>
